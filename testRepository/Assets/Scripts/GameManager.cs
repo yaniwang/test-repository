@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public string name = "Nick";
-
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +13,6 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(name);
+        
     }
 }
